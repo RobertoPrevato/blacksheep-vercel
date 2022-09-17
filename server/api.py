@@ -14,7 +14,7 @@ blacksheep_files = [
 for item in blacksheep_files:
     print(item)
 
-sys.path.append("/tmp/zeit-fun-c35299ddce6c5")
+sys.path.append(os.getcwd())
 
 from blacksheep import Application, Content, Response
 
